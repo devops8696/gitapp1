@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  Default: agentvm
+  name: Default
 
 variables:
   solution: '**/*.sln'
