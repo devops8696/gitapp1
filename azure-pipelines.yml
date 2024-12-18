@@ -18,7 +18,8 @@ steps:
 - task: UseDotNet@2
   inputs:
     packageType: 'sdk'
-    version: '9.0.1'
+    version: 
+
 - task: NuGetToolInstaller@1
 
 - task: NuGetCommand@2
